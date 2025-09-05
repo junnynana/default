@@ -1,3 +1,83 @@
+.app-wrap {
+	padding: 15px;
+	width: 25%;
+}
+
+.app {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.app-header {
+	display: block;
+	width: 100%;
+}
+
+.brand-name {
+	display: flex;               
+	align-items: center;         
+	gap: 8px;                     
+}
+
+
+.default-icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url('../public/app-icon.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.default-brand__name {
+	align-items: center;
+	padding-bottom: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.profileArea__area {
+	display: flex;               
+	align-items: center;         
+	gap: 8px;
+}
+
+.user-text {
+	font-weight: lighter;
+	font-size: 1.6rem;
+	padding-left: 18px;
+}
+
+.user-name__data {
+	font-weight: bolder;
+}
+
+.user-profile__wrap {
+	margin-left: 50px;;
+}
+
+.user-profile {
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 10px;
+	width: 45px;
+	height: 45px;
+	background-image: url('../public/app-profile.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.menuButton-area__wrap {
+	margin-left: -12px;
+}
+
+.button-wrap {
+	display: flex;
+}
+
 .menuButton {
 	background-color:#db6ddb;
 	border-radius:20px;
@@ -6,11 +86,14 @@
 	cursor:pointer;
 	color:#db6dd2;
 	font-family:Arial;
-	font-size:19px;
-	padding:24px 31px;
+	font-size:15px;
+	margin-left: 12px;
+	margin-top: 14px;
+	padding:24px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #db6ddb;
 }
+
 .menuButton:hover {
 	background-color:#bd24b8;
 }
@@ -18,3 +101,77 @@
 	position:relative;
 	top:1px;
 }
+
+.button-text__wrap {
+	display: flex;
+	margin-top: -8px;
+	margin-left: -12px;
+}
+
+.button-text {
+	font-weight: lighter;
+	font-size: 0.8rem;
+	margin-left: 27px;
+}
+
+.tasksArea-wrap {
+	margin-top: 10px;
+}
+
+.tasksArea-header {
+	display: flex;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.toAll {
+	all: unset;
+}
+
+.tasksSide-area {
+	margin-left: 110px;
+	padding-top: 11px;
+}
+
+.tasksSide-txt {
+	color: #555555;
+	font-size: 0.9rem;
+}
+
+.tasksArea-lnb {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.tasksArea-lnb {
+	margin-top: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-left: 0;
+}
+
+.tasksArea-lnb__list {
+	display: flex;
+	margin-top: -20px;
+	margin-left: -7px;
+	padding-top: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.lnb-button {
+	all: unset;
+}
+
+.lnb-txt__active {
+	color: #8A2BE2;
+}
+
+.lnb-txt {
+	color: #cccccc;
+}
+
+.tasksArea-lnb__list__comp {
+	padding-left: 8px;
+}
+

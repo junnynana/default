@@ -3,6 +3,7 @@ import './App.css';
 
 export default function App() {
   return (
+<div className="app-repeat">
   <div className="app-wrap">
     <h1 className="app">
       <header className="app-header">
@@ -14,7 +15,56 @@ export default function App() {
     <div className="app-container">
         <TasksArea></TasksArea>
     </div>
+    <div className="app-fnb">
+      <Fnb></Fnb>
+    </div>
   </div>
+  <div className="app-wrap">
+    <h1 className="app">
+      <header className="app-header">
+        <LogoArea></LogoArea>
+        <ProfileArea></ProfileArea>
+        <MenuButton></MenuButton>
+      </header>
+    </h1>
+    <div className="app-container">
+        <TasksArea></TasksArea>
+    </div>
+    <div className="app-fnb">
+      <Fnb></Fnb>
+    </div>
+  </div>
+  <div className="app-wrap">
+    <h1 className="app">
+      <header className="app-header">
+        <LogoArea></LogoArea>
+        <ProfileArea></ProfileArea>
+        <MenuButton></MenuButton>
+      </header>
+    </h1>
+    <div className="app-container">
+        <TasksArea></TasksArea>
+    </div>
+    <div className="app-fnb">
+      <Fnb></Fnb>
+    </div>
+  </div>
+  <div className="app-wrap">
+    <h1 className="app">
+      <header className="app-header">
+        <LogoArea></LogoArea>
+        <ProfileArea></ProfileArea>
+        <MenuButton></MenuButton>
+      </header>
+    </h1>
+    <div className="app-container">
+        <TasksArea></TasksArea>
+    </div>
+    <div className="app-fnb">
+      <Fnb></Fnb>
+    </div>
+  </div>
+</div>
   );
 }
 
@@ -147,6 +197,75 @@ function TasksArea() {
                 <p className="schedule-time__txt">09:30 AM</p>
               </div>
             </div>
+          </li>
+          <li className="today-schedule 2nd">
+            <div className="today-schedule__wrap">
+              <div className="today-schedule__button">
+                <button className="today-schedule__button__st">
+                  View all
+                </button>
+              </div>
+              <div className="schedule-name">
+                <p className="schedule-name__txt">Today's <br/>Schedule </p>
+              </div>
+              <div className="schedule-date">
+                <p className="schedule-date__txt">19 AUG, 2025</p>
+                <p className="schedule-time__txt">09:30 AM</p>
+              </div>
+            </div>
+          </li>
+          <li className="today-schedule__cutted">
+            <div className="cutted-area">
+              <button className="today-schedule__button__st__cutted">
+              </button>
+              <p className="schedule-name__txt__cutted">To <br/>Sc </p>
+            </div>
+          </li>
+        </ul>
+        <div className="schedule-info__wrap">
+          <div className="schedule-info__area">
+            <div className="schedule-info">
+              <p className="schedule-info__nameText">Today's Schdule</p>
+              <p className="schedule-info__dateText"> 19 AUG, 2025 09:30 AM</p>
+            </div>
+            <div className="catalog-icon__area">
+              <div className="catalog-icon">
+                <button className="catalog-icon__butt">
+                <i className="catalog-icon__st"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Fnb() {
+  return (
+    <div className="fnb-wrap">
+      <div className="fnb-area">
+        <ul className="fnb-menu__list">
+          <li className="fnb-comp">
+            <button className="fnb-button">
+              <i className="fnb-comp__icon__home"></i>
+            </button>
+          </li>
+          <li className="fnb-comp">
+            <button className="fnb-button">
+              <i className="fnb-comp__icon__calender"></i>
+            </button>
+          </li>
+          <li className="fnb-comp">
+            <button className="fnb-button">
+              <i className="fnb-comp__icon__graph"></i>
+            </button>
+          </li>
+          <li className="fnb-comp">
+            <button className="fnb-button">
+              <i className="fnb-comp__icon__mytab"></i>
+            </button>
           </li>
         </ul>
       </div>
